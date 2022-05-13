@@ -224,8 +224,17 @@ header {
 }
 
 @media (max-width: 768px) {
+    .banner {
+        padding: 30px;
+    }
     .navigation {
         background-position: center;
+    }
+    .clip {
+        width: 100%;
+    }
+    .clip .clipBox {
+        width: 100%;
     }
     .socialIcon {
         margin: 0 auto;
